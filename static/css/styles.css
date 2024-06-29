@@ -1,0 +1,77 @@
+/*Properties for coverpage image*/
+.cover-page {
+    text-align: center;
+    height: 400px;
+}
+
+.cover-page img{
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+        
+}
+/*Layout for id 'cat_tab'*/
+#cat_tab li {
+    list-style-type: none;
+    width: 5em;
+    text-align: center;
+    float: left;
+}
+
+#cat_tab a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: green;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#cat_tab a:hover {
+    background-color: rgb(32, 216, 87);
+    border: none;
+}
+
+/*Property for the headline*/
+#cat_tab h1 {
+    margin-left: 30px;
+}
+
+/*Properties for the headline phrase*/
+#cat_tab p {
+    margin-left: 250px;
+    margin-top: -19px;
+    margin-bottom: 25px;
+}
+
+.afrobeat-2 {
+    margin-top: -20px;
+}
+
+.afrobeat-2 p {
+    margin-top: -13px;
+}
+
+.afrobeat-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.afrobeat-1 img {
+    width: 40px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Layout for the content*/
+
+.content {
+    background-color: #b8e994;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}

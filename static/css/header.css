@@ -12,7 +12,7 @@ header {
     border-radius: 15px;
 }
 /*Layout for the header logo*/
-img {
+.logo-image {
     width: 45px;
     margin-left: -880px;
     margin-top: 3px;
@@ -32,19 +32,25 @@ nav ul {
     padding: 0;
     overflow: hidden;
     margin-top: -36px;
-    margin-left: 350px;
+    margin-left: 10px;
 }
 
 nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 15px;    
 }
 
 nav a {
     color: black;
     text-decoration: none;
+    background-color: green;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    margin-bottom: 2px;
 }
+/*Layout for nav bar hover*/
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: cursor;
+    background-color: rgb(32, 216, 87)
 }

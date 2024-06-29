@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Create the logo element
     var logo = document.createElement("img");
+    logo.classList.add("logo-image");
     logo.src = "static/images/logo_icon.png";
     logo.alt = "Logo";
     nav.appendChild(logo); // Append logo to the nav bar
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Create the heading element
     var heading = document.createElement("li");
     heading.classList.add("logo-heading"); // Add class 'logo-heading' to target heading
-    heading.textContent = "Online Music Store";
+    heading.textContent = "OMS";
     nav.appendChild(heading); // Append heading to the nav bar
 
     // Create an unordered list for navigation items
@@ -23,9 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define navigation items
     var navItems = [
         { text: "Home", href: "#" },
-        { text: "About", href: "#" },
-        { text: "Services", href: "#" },
-        { text: "Contact", href: "#" },
+        { text: "About", href: "#about" },
+        { text: "Contact", href: "#contact" },
         { text: "Login", href: "#" },
         { text: "Signup", href: "#" }
     ];

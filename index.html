@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Streaming Music Player</title>
+        <link rel="stylesheet" href="static/css/header.css">
+		<link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/footer.css">
+        <script src="index.js"></script>
+	</head>
+	<body>
+      <div class="container"> 
+		  <div class="content">   
+				<div id="cat_tab">
+				   <h1>Online Web Music Streaming Application</h1>
+				   <p><em>........your gateway to unparallel entertainment</em></p>
+				   <div class="cover-page">
+					<img src="static/images/turntable3.jpg" alt="Coverpage" />
+				   </div>
+				   <ul>
+					  <li><a href="#">Hot</a></li>
+					  <li><a href="#">Classical</a></li>
+					  <li><a href="#">Afrobeat</a></li>
+					  <li><a href="#">RnB</a></li>
+					  <li><a href="#">HipHop</a></li>
+					  <li><a href="#">Playlists</a></li>
+				   </ul><br>
+				</div>
+				<div class='tab_option'>
+					<div class="afrobeat-1">
+						<img src="static/images/turntable2.jpg" alt="afro"/>
+					</div>
+					<div class="afrobeat-2">
+						<h3>Afrobeat:</h3>
+						<p><em>Description here .......</em></p>
+					</div>
+					<ol>
+						<li>
+							<section id="tab_option">
+								<div>image1</div>
+								<div>
+									<ul>
+										<li>song_name1</li>
+										<li>Artist1</li>
+									</ul>
+								</div>
+							</section>
+						</li>
+						<li>
+							<section id="tab_option">
+								<div>image2</div>
+								<div>
+									<ul>
+										<li>song2_name</li>
+										<li>Artist2</li>
+									</ul>
+								</div>
+							</section>
+						</li>
+						<li>
+							<section id="tab_option">
+								<div>image3</div>
+								<div>
+									<ul>
+										<li>song3_name</li>
+										<li>Artist3</li>
+									</ul>
+								</div>
+							</section>
+						</li>
+					</ol>
+				</div>
+				<hr>
+				<div>
+					<div class="afrobeat-1">
+						<img src="static/images/turntable2.jpg" alt="afro"/>
+					</div>
+					<div class="afrobeat-2">
+						<h3>New Release:</h3>
+						<p><em>Description here .......</em></p>
+					</div>
+				</div>
+				<div class='new_release'>
+					<ol>
+						<li>
+							<section>
+								<div>
+									<p>song1_name - Artist</p>
+								</div>
+							</section>
+						</li>
+						<li>
+							<section>
+								<div>
+									<p>song2_name - Artist</p>
+								</div>
+							</section>
+						</li>
+						<li>
+							<section>
+								<div>
+									<p>song3_name - Artist</p>
+								</div>
+							</section>
+						</li>
+					</ol>
+				</div>
+				<hr>
+				<div>
+					<div class="afrobeat-1">
+						<img src="static/images/turntable2.jpg" alt="afro"/>
+					</div>
+					<div class="afrobeat-2">
+						<h3>Afrobeat:</h3>
+						<p><em>Description here .......</em></p>
+					</div>
+				</div>
+				<div class='album'>
+					<section>
+						<div>
+							<ol>
+								<li>song_name</li>
+								<li>Artist</li>
+							</ol>
+						</div>
+					</section>
+					<section>
+						<div>
+							<ol>
+								<li>song2_name</li>
+								<li>Artist</li>
+							</ol>
+						</div>
+					</section>
+					<section>
+						<div>
+							<ol>
+								<li>song3_name</li>
+								<li>Artist</li>
+							</ol>
+						</div>
+					</section>
+				</div>
+				<hr>
+				<div>
+					<h3 id="about">About:</h3>
+					<p><em>Description here .......</em></p>
+					<p><strong>Team members and social media links:</strong></p>
+					<p><em>Mr Ayoola Nuatin</em></p>
+					<ul>
+						<li><a href="#">Linkedln</a></li>
+						<li><a href="#">GitHub</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+					<p><em>Mr Abdullahi Abdulrahman</em></p>
+					<ul>
+						<li><a href="#">Linkedln</a></li>
+						<li><a href="#">GitHub</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+					<p><em>Mr Abiona Samuel</em></p>
+					<ul>
+						<li><a href="#">Linkedln</a></li>
+						<li><a href="#">GitHub</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+				</div>
+		</div>
+			<footer id="contact">
+				<section class="social-media">
+				<ul>
+					<li><a href="#" class="social-media"><img src="static/images/facebook.png"/></a></li>
+					<li><a href="#" class="social-media"><img src="static/images/twitter.png"/></a></li>
+					<li><a href="#" class="social-media"><img src="static/images/instagram.png"/></a></li>
+					<!-- Add more social media icons -->
+				</ul>
+				</section>
+				<section class="copyright">
+					<p>Copyright © <span id="copyright-year"></span> - Online Web Music Streaming App - All rights reserved.</p>
+				</section>
+			</footer>
+		</div>
+		<!-- Script for Footer with dynamic copyright year -->
+		<script>
+			document.getElementById("copyright-year").textContent = new Date().getFullYear();
+		</script>
+	</body>
+    
+</html>
