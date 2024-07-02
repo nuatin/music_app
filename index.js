@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Define navigation items
     var navItems = [
-        { text: "Home", href: "#" },
+        { text: "Home", href: "index.html" },
         { text: "About", href: "#about" },
         { text: "Contact", href: "#contact" },
-        { text: "Login", href: "#" },
-        { text: "Signup", href: "#" }
+        { text: "Login", href: "/login.html" },
+        { text: "Signup", href: "/signup.html" }
     ];
 
     // Loop through navigation items and create list elements
